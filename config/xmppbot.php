@@ -3,6 +3,6 @@
 return [
     'host' => 'Set your host',
     'send-alias' => 'Set your send alias',
-    'user' => 'Set user name',
+    'username' => 'Set user name',
     'password' => 'Set user password'
 ];
