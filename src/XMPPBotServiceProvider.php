@@ -20,7 +20,7 @@ class XMPPBotServiceProvider extends ServiceProvider {
         $this->app->bind('xmppbot', function () {
             $options = new Options(config('xmppbot.host'));
             $options->setTo(config('xmppbot.send-alias'));
-            $options->setUsername(config('xmppbot.user-name'))->setPassword(config('xmppbot.password'));
+            $options->setUsername(config('xmppbot.username'))->setPassword(config('xmppbot.password'));
 
             $client = new Client($options);
 
