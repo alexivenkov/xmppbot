@@ -1,0 +1,24 @@
+{
+    "name": "nitromoon/xmppbot",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "a.ivenkov@advmaker.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "monolog/monolog": "~1.11",
+        "phpunit/phpunit": "~4.3",
+        "behat/behat": "~2.5",
+        "satooshi/php-coveralls": "~0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xmppbot\\": "src/"
+        }
+    }
+}
