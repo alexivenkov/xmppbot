@@ -372,7 +372,7 @@ class Options
      * Set timeout for connection.
      *
      * @param integer $timeout Seconds
-     * @return \Fabiang\Xmpp\Options
+     * @return \Xmppbot\Core\Options
      */
     public function setTimeout($timeout)
     {

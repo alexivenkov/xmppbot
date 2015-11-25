@@ -87,7 +87,7 @@ class Roster extends AbstractEventListener implements BlockingEventListenerInter
     /**
      * Result received.
      *
-     * @param \Fabiang\Xmpp\Event\XMLEvent $event
+     * @param \Xmppbot\Core\Event\XMLEvent $event
      * @return void
      */
     public function result(XMLEvent $event)

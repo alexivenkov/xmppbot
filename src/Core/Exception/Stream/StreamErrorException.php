@@ -57,7 +57,7 @@ class StreamErrorException extends RuntimeException
     /**
      * Create exception from XMLEvent object.
      *
-     * @param \Fabiang\Xmpp\Event\XMLEvent $event XMLEvent object
+     * @param \Xmppbot\Core\Event\XMLEvent $event XMLEvent object
      * @return static
      */
     public static function createFromEvent(XMLEvent $event)
