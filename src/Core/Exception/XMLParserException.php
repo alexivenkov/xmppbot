@@ -34,9 +34,9 @@
  * @link      http://github.com/fabiang/xmpp
  */
 
-namespace Fabiang\Xmpp\Exception;
+namespace Xmppbot\Core\Exception;
 
-use Fabiang\Xmpp\Exception\InvalidArgumentException;
+use Xmppbot\Core\Exception\InvalidArgumentException;
 
 /**
  * XML parser exception.

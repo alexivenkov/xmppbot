@@ -34,11 +34,11 @@
  * @link      http://github.com/fabiang/xmpp
  */
 
-namespace Fabiang\Xmpp\EventListener\Stream;
+namespace Xmppbot\Core\EventListener\Stream;
 
-use Fabiang\Xmpp\Event\XMLEvent;
-use Fabiang\Xmpp\Exception\Stream\StreamErrorException;
-use Fabiang\Xmpp\EventListener\AbstractEventListener;
+use Xmppbot\Core\Event\XMLEvent;
+use Xmppbot\Core\Exception\Stream\StreamErrorException;
+use Xmppbot\Core\EventListener\AbstractEventListener;
 
 /**
  * Listener for stream errors.

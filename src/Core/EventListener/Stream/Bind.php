@@ -34,10 +34,10 @@
  * @link      http://github.com/fabiang/xmpp
  */
 
-namespace Fabiang\Xmpp\EventListener\Stream;
+namespace Xmppbot\Core\EventListener\Stream;
 
-use Fabiang\Xmpp\EventListener\BlockingEventListenerInterface;
-use Fabiang\Xmpp\Event\XMLEvent;
+use Xmppbot\Core\EventListener\BlockingEventListenerInterface;
+use Xmppbot\Core\Event\XMLEvent;
 
 /**
  * Listener

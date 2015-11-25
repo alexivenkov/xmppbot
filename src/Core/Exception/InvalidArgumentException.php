@@ -34,7 +34,7 @@
  * @link      http://github.com/fabiang/xmpp
  */
 
-namespace Fabiang\Xmpp\Exception;
+namespace Xmppbot\Core\Exception;
 
 /**
  * Exception for invalid arguments.

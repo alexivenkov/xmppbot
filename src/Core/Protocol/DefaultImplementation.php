@@ -34,19 +34,19 @@
  * @link      http://github.com/fabiang/xmpp
  */
 
-namespace Fabiang\Xmpp\Protocol;
+namespace Xmppbot\Core\Protocol;
 
-use Fabiang\Xmpp\Options;
-use Fabiang\Xmpp\EventListener\EventListenerInterface;
-use Fabiang\Xmpp\Event\EventManagerInterface;
-use Fabiang\Xmpp\Event\EventManager;
-use Fabiang\Xmpp\EventListener\Stream\Stream;
-use Fabiang\Xmpp\EventListener\Stream\StreamError;
-use Fabiang\Xmpp\EventListener\Stream\StartTls;
-use Fabiang\Xmpp\EventListener\Stream\Authentication;
-use Fabiang\Xmpp\EventListener\Stream\Bind;
-use Fabiang\Xmpp\EventListener\Stream\Session;
-use Fabiang\Xmpp\EventListener\Stream\Roster as RosterListener;
+use Xmppbot\Core\Options;
+use Xmppbot\Core\EventListener\EventListenerInterface;
+use Xmppbot\Core\Event\EventManagerInterface;
+use Xmppbot\Core\Event\EventManager;
+use Xmppbot\Core\EventListener\Stream\Stream;
+use Xmppbot\Core\EventListener\Stream\StreamError;
+use Xmppbot\Core\EventListener\Stream\StartTls;
+use Xmppbot\Core\EventListener\Stream\Authentication;
+use Xmppbot\Core\EventListener\Stream\Bind;
+use Xmppbot\Core\EventListener\Stream\Session;
+use Xmppbot\Core\EventListener\Stream\Roster as RosterListener;
 
 /**
  * Default Protocol implementation.
