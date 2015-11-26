@@ -1,9 +1,11 @@
 {
     "name": "nitromoon/xmppbot",
     "description": "Xmpp bot client for Laravel PHP framework",
-    "license": "MIT",
     "version": "1.0.0",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/alexivenkov/xmppbot"
+    },
     "authors": [
         {
             "name": "alex",
