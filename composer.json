@@ -3,6 +3,7 @@
     "description": "Xmpp bot client for Laravel PHP framework",
     "version": "1.0.0",
     "minimum-stability": "stable",
+    "license": "BSD-2-Clause",
     "support": {
         "source": "https://github.com/alexivenkov/xmppbot"
     },
