@@ -9,8 +9,7 @@
     },
     "authors": [
         {
-            "name": "alex",
-            "email": "a.ivenkov@advmaker.net"
+            "name": "alex"
         }
     ],
     "require": {
