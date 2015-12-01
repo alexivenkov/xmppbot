@@ -19,8 +19,7 @@
     "require-dev": {
         "monolog/monolog": "~1.11",
         "phpunit/phpunit": "~4.3",
-        "behat/behat": "~2.5",
-        "satooshi/php-coveralls": "~0.6"
+        "behat/behat": "~2.5"
     },
     "autoload": {
         "psr-4": {
